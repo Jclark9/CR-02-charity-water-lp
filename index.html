@@ -1,47 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make Clean Water Your Cause</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <header class="hero">
+    <div class="container">
+      <h1>Make Clean Water Your Cause</h1>
+      <p>Charity: Water empowers passionate individuals to fund clean water projects around the world, delivering transparent, trackable impact.</p>
+      <a href="#donate" class="cta-button">Donate Now</a>
+    </div>
+  </header>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+  <section class="info">
+    <div class="container">
+      <h2>Why It Matters</h2>
+      <p>If you're fighting for climate justice, clean water is the frontline. Your voice—and your action—can bring safe, sustainable water to communities most impacted by climate change.</p>
+    </div>
+  </section>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+  <section class="donation-form" id="donate">
+    <div class="container">
+      <h2>Choose Your Impact</h2>
+      <form>
+        <label>Donation Type:</label><br />
+        <input type="radio" name="type" /> One-Time
+        <input type="radio" name="type" /> Monthly<br /><br />
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+        <label>Amount:</label><br />
+        <button type="button">$10</button>
+        <button type="button">$25</button>
+        <button type="button">$50</button>
+        <button type="button">$100</button>
+        <input type="text" placeholder="Custom Amount" /><br /><br />
+
+        <label>Your Info:</label><br />
+        <input type="text" placeholder="Name" /><br />
+        <input type="email" placeholder="Email" /><br /><br />
+
+        <label>Payment Method:</label><br />
+        <select>
+          <option>Credit Card</option>
+          <option>PayPal</option>
+          <option>Venmo</option>
+        </select><br /><br />
+
+        <button type="submit" class="cta-button">Donate Now →</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="track-impact">
+    <div class="container">
+      <h2>Track Your Impact</h2>
+      <p>Every donation is tracked and mapped. You’ll know exactly where your money goes and the lives it helps change.</p>
+      <a href="#" class="cta-button">🔍 Track My Impact</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>100% of your donation goes directly to clean water projects. You’ll receive updates showing your impact.</p>
+  </footer>
 </body>
 </html>
