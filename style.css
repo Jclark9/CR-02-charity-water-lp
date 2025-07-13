@@ -54,7 +54,7 @@ body {
 
 .donation-form,
 .track-impact {
-  background: white;
+  background: #2E9DF7; /* Brand blue */
   margin-top: 20px;
   border-radius: 10px;
   padding: 20px;
